@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Slot : MonoBehaviour
 {
+
     private Inventory inventory;
     public int i;
 
@@ -23,7 +24,7 @@ public class Slot : MonoBehaviour
 
     public void DropItem()
     {
-        foreach(Transform child in transform)
+        foreach (Transform child in transform)
         {
             child.GetComponent<Spawn>().spawnDroppedItem();
             GameObject.Destroy(child.gameObject);

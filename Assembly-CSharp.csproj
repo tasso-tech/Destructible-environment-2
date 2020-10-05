@@ -71,6 +71,7 @@
     <Compile Include="Assets\scripts\Shooting.cs" />
     <Compile Include="Assets\scripts\Slot.cs" />
     <Compile Include="Assets\scripts\Spawn.cs" />
+    <Compile Include="Assets\scripts\TriangelItem.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
